@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SATIM OTP</title>
+</head>
+<body>
+
+<h1>Fill OTP</h1>
+
+<script>
+    function fillOtpAndSubmit(otp) {
+        if (otp === "000000")
+            window.location = '/success.html';
+        else
+            window.location = '/error.html';
+    }
+</script>
+</body>
+</html>
